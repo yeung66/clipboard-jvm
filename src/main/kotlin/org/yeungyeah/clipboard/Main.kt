@@ -1,4 +1,4 @@
-import org.clipboard.Clipboard
+package org.yeungyeah.clipboard
 
 fun main() {
     val clipboard = Clipboard.getClipboard()

@@ -1,8 +1,8 @@
-package org.clipboard
+package org.yeungyeah.clipboard
 
-import org.clipboard.impl.LinuxClipboard
-import org.clipboard.impl.MacosClipboard
-import org.clipboard.impl.WinClipboard
+import org.yeungyeah.clipboard.impl.LinuxClipboard
+import org.yeungyeah.clipboard.impl.MacosClipboard
+import org.yeungyeah.clipboard.impl.WinClipboard
 
 interface Clipboard {
     fun set(text: String)

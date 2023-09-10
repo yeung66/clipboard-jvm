@@ -1,4 +1,4 @@
-package org.clipboard.shell
+package org.yeungyeah.clipboard.shell
 
 import java.io.File
 import java.io.InputStream

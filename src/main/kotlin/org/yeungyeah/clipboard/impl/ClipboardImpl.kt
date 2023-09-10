@@ -1,7 +1,7 @@
-package org.clipboard.impl
+package org.yeungyeah.clipboard.impl
 
-import org.clipboard.Clipboard
-import org.clipboard.shell.Command
+import org.yeungyeah.clipboard.Clipboard
+import org.yeungyeah.clipboard.shell.Command
 import java.nio.file.Paths
 
 object MacosClipboard : Clipboard {

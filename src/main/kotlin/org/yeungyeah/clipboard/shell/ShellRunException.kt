@@ -1,4 +1,4 @@
-package org.clipboard.shell
+package org.yeungyeah.clipboard.shell
 
 data class ShellRunException(
     val exitCode: Int,
