@@ -6,9 +6,11 @@ A simple clipboard library for jvm, developed by kotlin.
 
 just get the clipboard and use it
 
-in kotlin
+in kotlin script
 
 ```kotlin
+@file:DependsOn("io.github.yeung66:clipboard-jvm:1.0.0")
+
 import org.yeungyeah.clipboard.Clipboard
 val clipboard = Clipboard.getClipboard()
 println(clipboard.get())
@@ -16,7 +18,15 @@ clipboard.set("Hello World")
 println(clipboard.get())
 ```
 
-or in java
+or in java project
+
+```xml
+<dependency>
+  <groupId>io.github.yeung66</groupId>
+  <artifactId>clipboard-jvm</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ```java
 import org.yeungyeah.clipboard.Clipboard;
@@ -27,7 +37,7 @@ clipboard.set("Hello World");
 System.out.println(clipboard.get());
 ```
 
-> it's going to deploy on the maven central repository, so you can use it by add dependency in your project. (but now now)
+> it's going to deploy on the maven central repository, so you can use it by add dependency in your project. 
 
 ## method
 

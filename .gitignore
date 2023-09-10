@@ -44,3 +44,4 @@ bin/
 
 clipboard-jvm-test/
 .env
+gradle.properties
